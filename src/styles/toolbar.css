@@ -1,0 +1,21 @@
+
+
+/*
+Toolbar Component
+*/
+
+.toolbar {
+    background-color: #4aa3a3;
+    text-align: justify;
+    color: black;
+    padding: 1px 0 1px 5px;
+    
+}
+.editor .toolbar {
+    width: 100%;
+    margin-top: 50px;
+}
+.previewer .toolbar {
+    box-sizing: border-box;
+    width: 100%;
+}

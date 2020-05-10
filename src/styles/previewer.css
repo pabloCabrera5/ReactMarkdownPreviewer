@@ -1,0 +1,44 @@
+.previewer {
+    background-color: #c0d8d8;
+    width: 65%;
+    color: black;
+    text-align: justify;
+}
+
+#preview > h1 {
+    border-bottom: 2px solid #224B4B;
+    font-size: 2.5rem;
+}
+#preview > h2 {
+    border-bottom: 1px solid #224B4B;
+}
+#preview code {
+    background-color: wheat;
+}
+#preview table {
+    border: solid;
+}
+#preview td, #preview th {
+    border: 2px solid #224B4B;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#preview {
+    padding: 0 7px;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+@media screen and (max-width:600px) {
+    .previewer {
+        width: 90%;
+    }
+    code {
+        white-space: pre-line;
+    }
+}
